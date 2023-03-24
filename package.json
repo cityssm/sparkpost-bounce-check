@@ -2,7 +2,7 @@
   "name": "@cityssm/sparkpost-bounce-check",
   "version": "1.0.0-beta",
   "type": "module",
-  "description": "An on demand check of recent bouncebacks from SparkPost",
+  "description": "An on-demand check of recently bounced emails delivered from SparkPost.",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
