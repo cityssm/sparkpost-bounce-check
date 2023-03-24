@@ -4,6 +4,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/66b749128317c5c016f0/maintainability)](https://codeclimate.com/github/cityssm/sparkpost-bounce-check/maintainability)
 [![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/cityssm/sparkpost-bounce-check)](https://app.snyk.io/org/cityssm/project/589e02bc-4c75-431c-ba34-58ee621c942e)
 
+![Bouncing Envelope](social.png)
+
 An on-demand check of recently bounced emails delivered from SparkPost (now MessageBird Email).
 
 ## Getting Started
