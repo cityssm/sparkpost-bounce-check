@@ -3,7 +3,7 @@ import SparkPost from 'sparkpost';
 const client = new SparkPost(config.sparkPostApiKey);
 const events = client.events;
 const results = await events.searchMessage({
-    events: "bounce"
+    events: 'bounce'
 });
 const cleanMessages = [];
 for (const result of results.results) {

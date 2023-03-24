@@ -1,4 +1,4 @@
-import SparkPost from 'sparkpost'
+import type SparkPost from 'sparkpost'
 
 export interface Config {
   sparkPostApiKey: string
@@ -19,5 +19,7 @@ interface SearchMessageOptions {
 }
 
 export interface SparkPost_Events {
-  searchMessage (options: SearchMessageOptions): Promise<{results: SparkPost.MessageEvent[]}>
+  searchMessage: (
+    options: SearchMessageOptions
+  ) => Promise<{ results: SparkPost.MessageEvent[] }>
 }

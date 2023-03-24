@@ -1,4 +1,4 @@
-import SparkPost from 'sparkpost';
+import type SparkPost from 'sparkpost';
 export interface Config {
     sparkPostApiKey: string;
 }
@@ -15,7 +15,7 @@ interface SearchMessageOptions {
     events: 'bounce';
 }
 export interface SparkPost_Events {
-    searchMessage(options: SearchMessageOptions): Promise<{
+    searchMessage: (options: SearchMessageOptions) => Promise<{
         results: SparkPost.MessageEvent[];
     }>;
 }
