@@ -4,11 +4,11 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/66b749128317c5c016f0/maintainability)](https://codeclimate.com/github/cityssm/sparkpost-bounce-check/maintainability)
 [![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/cityssm/sparkpost-bounce-check)](https://app.snyk.io/org/cityssm/project/589e02bc-4c75-431c-ba34-58ee621c942e)
 
-An on-demand check of recent bouncebacks from SparkPost.
+An on-demand check of recently bounced emails delivered from SparkPost (now MessageBird Email).
 
 ## Getting Started
 
-**This application requires [NodeJS](https://nodejs.org/en) to run.**
+**This application requires the [NodeJS](https://nodejs.org/en) Javascript runtime.**
 
 - Clone the repository,
   or [download the latest release](https://github.com/cityssm/sparkpost-bounce-check/releases)
@@ -36,3 +36,9 @@ An on-demand check of recent bouncebacks from SparkPost.
   }
 ]
 ```
+
+## Helpful Links
+
+[SparkPost Bounce Classification Codes](https://support.sparkpost.com/docs/deliverability/bounce-classification-codes)
+
+[SparkPost Status](https://status.sparkpost.com/)
